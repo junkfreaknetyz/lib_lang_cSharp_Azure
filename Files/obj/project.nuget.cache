@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "y+co2xsuMWwpf/NzKCjAorvLNtJamLA8Z3gJWWnrtzleLDPz+jVYyAB6CC8EEAwBJq+B2p3e5uNu5afMeSUB2A==",
+  "success": true,
+  "projectFilePath": "/home/noriyuki/tmp/dust/visual-studio-code/azureFiles/aboutAzureFiles/aboutAzureFiles.csproj",
+  "expectedPackageFiles": [
+    "/home/noriyuki/.nuget/packages/azure.core/1.4.1/azure.core.1.4.1.nupkg.sha512",
+    "/home/noriyuki/.nuget/packages/azure.storage.common/12.5.2/azure.storage.common.12.5.2.nupkg.sha512",
+    "/home/noriyuki/.nuget/packages/azure.storage.files.shares/12.4.0/azure.storage.files.shares.12.4.0.nupkg.sha512",
+    "/home/noriyuki/.nuget/packages/microsoft.bcl.asyncinterfaces/1.0.0/microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512",
+    "/home/noriyuki/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/home/noriyuki/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/home/noriyuki/.nuget/packages/system.buffers/4.5.0/system.buffers.4.5.0.nupkg.sha512",
+    "/home/noriyuki/.nuget/packages/system.diagnostics.diagnosticsource/4.6.0/system.diagnostics.diagnosticsource.4.6.0.nupkg.sha512",
+    "/home/noriyuki/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
+    "/home/noriyuki/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/home/noriyuki/.nuget/packages/system.runtime.compilerservices.unsafe/4.6.0/system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512",
+    "/home/noriyuki/.nuget/packages/system.text.encodings.web/4.6.0/system.text.encodings.web.4.6.0.nupkg.sha512",
+    "/home/noriyuki/.nuget/packages/system.text.json/4.6.0/system.text.json.4.6.0.nupkg.sha512",
+    "/home/noriyuki/.nuget/packages/system.threading.tasks.extensions/4.5.2/system.threading.tasks.extensions.4.5.2.nupkg.sha512"
+  ],
+  "logs": []
+}
