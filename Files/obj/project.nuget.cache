@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y+co2xsuMWwpf/NzKCjAorvLNtJamLA8Z3gJWWnrtzleLDPz+jVYyAB6CC8EEAwBJq+B2p3e5uNu5afMeSUB2A==",
+  "dgSpecHash": "qJOo9xUjDdz7QQqGKgc8CKsobD6Lxqc5m/9d1Imn1eh6nM6QooYznWKi1Xk+mCJWgBmj2Mz6ARHmM2Fr42SxNA==",
   "success": true,
-  "projectFilePath": "/home/noriyuki/tmp/dust/visual-studio-code/azureFiles/aboutAzureFiles/aboutAzureFiles.csproj",
+  "projectFilePath": "/home/noriyuki/tmp/dust/from_github/lib_lang_csharp_azure/Files/Files.csproj",
   "expectedPackageFiles": [
     "/home/noriyuki/.nuget/packages/azure.core/1.4.1/azure.core.1.4.1.nupkg.sha512",
     "/home/noriyuki/.nuget/packages/azure.storage.common/12.5.2/azure.storage.common.12.5.2.nupkg.sha512",

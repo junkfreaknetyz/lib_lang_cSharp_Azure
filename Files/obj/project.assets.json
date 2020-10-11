@@ -623,7 +623,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "Azure.Storage.Files.Shares >= *",
+      "Azure.Storage.Files.Shares >= 12.4.0",
       "NETStandard.Library >= 2.0.3"
     ]
   },
@@ -633,11 +633,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/noriyuki/tmp/dust/visual-studio-code/azureFiles/aboutAzureFiles/aboutAzureFiles.csproj",
-      "projectName": "aboutAzureFiles",
-      "projectPath": "/home/noriyuki/tmp/dust/visual-studio-code/azureFiles/aboutAzureFiles/aboutAzureFiles.csproj",
+      "projectUniqueName": "/home/noriyuki/tmp/dust/from_github/lib_lang_csharp_azure/Files/Files.csproj",
+      "projectName": "Files",
+      "projectPath": "/home/noriyuki/tmp/dust/from_github/lib_lang_csharp_azure/Files/Files.csproj",
       "packagesPath": "/home/noriyuki/.nuget/packages/",
-      "outputPath": "/home/noriyuki/tmp/dust/visual-studio-code/azureFiles/aboutAzureFiles/obj/",
+      "outputPath": "/home/noriyuki/tmp/dust/from_github/lib_lang_csharp_azure/Files/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/noriyuki/.nuget/NuGet/NuGet.Config"
@@ -664,7 +664,7 @@
         "dependencies": {
           "Azure.Storage.Files.Shares": {
             "target": "Package",
-            "version": "[*, )"
+            "version": "[12.4.0, )"
           },
           "NETStandard.Library": {
             "suppressParent": "All",
