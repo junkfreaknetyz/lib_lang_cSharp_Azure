@@ -10,7 +10,7 @@ namespace myAure
     public static class Files
     {
         //  upload file
-        public static void Upload(ConnectionString cnnctnstrng)
+        public static void Upload(ConnectionString cnnctnstrng,ShareName sharename,FilesDirectory filesdirectory,FilesName filesname)
         {
             //
             //  upload file using ShareFileClient.UploadAsync
@@ -22,7 +22,7 @@ namespace myAure
             //  ***************
             //  path to source file
             //
-        
+            ShareClient share_client=new ShareClient(cnnctnstrng.Get(),sharename.Get());
         }
     }
 

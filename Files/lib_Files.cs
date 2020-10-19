@@ -75,5 +75,29 @@ namespace myAure.files
             return this.files_directory;
         }
     }
+    public class FilesName
+    {
+        private String files_name;
+        public FilesName(String para)
+        {
+            this.files_name=para;
+        }
+        public FilesName(FilesName para)
+        {
+            this.files_name=para.Get();
+        }
+        public void Set(String para)
+        {
+            this.files_name=para;
+        }
+        public void Set(FilesName para)
+        {
+            this.files_name=para.Get();
+        }
+        public String Get()
+        {
+            return this.files_name;
+        }
+    }
     
 }
