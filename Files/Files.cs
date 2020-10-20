@@ -10,7 +10,7 @@ namespace myAure
     public static class Files
     {
         //  upload file
-        public static void Upload(ConnectionString connection_string,ShareName share_name,FilesDirectory files_directory,FilesName files_name)
+        public static void Upload(ConnectionString connection_string,ShareName share_name,FilesDirectory files_directory,FilesName files_name,lang.generic.common.Directory directory_from,lang.generic.common.File file_from)
         {
             //
             //  upload file using ShareFileClient.UploadAsync
