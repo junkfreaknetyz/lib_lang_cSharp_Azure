@@ -40,4 +40,23 @@ namespace lang.generic.common{
             return this.directory_name;
         }
     }
+
+    public class PathSeparatore{
+        private String path_separatore;
+        public PathSeparatore(String para){
+            this.path_separatore=para;
+        }
+        public String Get(){
+            return this.path_separatore;
+        }
+        public void Set(String para){
+            this.path_separatore=para;
+        }
+        public void Set(PathSeparatore para){
+            this.path_separatore=para.path_separatore;
+        }
+        public void Set(String para){
+            this.path_separatore=para;
+        }
+    }
 }
