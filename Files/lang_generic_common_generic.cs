@@ -1,6 +1,6 @@
 using System;
 
-namespace lang.generic.common{
+namespace language.generic.io{
     public class File{
 
         private String file_name;

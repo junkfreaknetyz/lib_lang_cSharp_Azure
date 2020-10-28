@@ -4,14 +4,14 @@ using System;
 using System.IO;
 using Azure.Storage.Files.Shares;
 using language.generic.common;
-using myAure.files;
+//using language.azure.files;
 
-namespace myAure
+namespace language.azure.files
 {
     public static class Files
     {
         //  upload file
-        public static void Upload(ConnectionString connection_string,ShareName share_name,FilesDirectory files_directory,FilesName files_name,lang.generic.common.Directory directory_from,lang.generic.common.File file_from,lang.generic.common.PathSeparatore path_separatore)
+        public static void Upload(ConnectionString connection_string,ShareName share_name,FilesDirectory files_directory,FilesName files_name,language.generic.common.Directory directory_from,language.generic.common.File file_from,language.generic.common.PathSeparatore path_separatore)
         {
             //
             //  upload file using ShareFileClient.UploadAsync

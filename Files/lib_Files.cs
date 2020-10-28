@@ -1,6 +1,6 @@
 using System;
 
-namespace myAure.files
+namespace language.azure.files
 {
     //
     //connection string class
