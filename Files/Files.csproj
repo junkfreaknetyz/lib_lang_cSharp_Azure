@@ -8,4 +8,8 @@
     <PackageReference Include="Azure.Storage.Files.Shares" Version="12.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\lib_lang_csharp_generic\lib_lang_csharp_generic.csproj" />
+  </ItemGroup>
+
 </Project>
