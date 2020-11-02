@@ -176,6 +176,16 @@
         "runtime": {
           "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
         }
+      },
+      "lib_lang_csharp_generic/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/lib_lang_csharp_generic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/lib_lang_csharp_generic.dll": {}
+        }
       }
     }
   },
@@ -619,12 +629,18 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "lib_lang_csharp_generic/1.0.0": {
+      "type": "project",
+      "path": "../../lib_lang_csharp_generic/lib_lang_csharp_generic.csproj",
+      "msbuildProject": "../../lib_lang_csharp_generic/lib_lang_csharp_generic.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "Azure.Storage.Files.Shares >= 12.4.0",
-      "NETStandard.Library >= 2.0.3"
+      "NETStandard.Library >= 2.0.3",
+      "lib_lang_csharp_generic >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -650,7 +666,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/noriyuki/tmp/dust/from_github/lib_lang_csharp_generic/lib_lang_csharp_generic.csproj": {
+              "projectPath": "/home/noriyuki/tmp/dust/from_github/lib_lang_csharp_generic/lib_lang_csharp_generic.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
