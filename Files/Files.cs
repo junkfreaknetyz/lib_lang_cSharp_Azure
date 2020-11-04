@@ -35,4 +35,13 @@ namespace language.azure.files
         }
     }
 
+    //
+    //
+    //
+    class test{
+        static void Main(AssemblyLoadEventArgs[]){
+
+        }
+    }
+
 }
