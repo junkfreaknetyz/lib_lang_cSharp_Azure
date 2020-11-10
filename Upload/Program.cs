@@ -17,7 +17,10 @@ namespace Upload
             String strDirectoryFrom=".";
             String strFileNameFrom="dbo_TBL_OUTFILE.txt";
 
-            Func.Upload(new ConnectionString(strCnnctnToAzure),new ShareName(strShareNameToAzure),new FilesDirectory(strFilesDirectory),new FilesName(strFileName),new language.generic.common.io.Directory(strDirectoryFrom),new language.generic.common.io.File(strFileNameFrom),new language.generic.common.io.PathSeparatore("/"));
+            Console.WriteLine("start upload. "+DateTime.Now);
+            //Func.Upload(new ConnectionString(strCnnctnToAzure),new ShareName(strShareNameToAzure),new FilesDirectory(strFilesDirectory),new FilesName(strFileName),new language.generic.common.io.Directory(strDirectoryFrom),new language.generic.common.io.File(strFileNameFrom),new language.generic.common.io.PathSeparatore("/"));
+            Func.UploadAsync(new ConnectionString(strCnnctnToAzure),new ShareName(strShareNameToAzure),new FilesDirectory(strFilesDirectory),new FilesName(strFileName),new language.generic.common.io.Directory(strDirectoryFrom),new language.generic.common.io.File(strFileNameFrom),new language.generic.common.io.PathSeparatore("/"));            
+            Console.WriteLine("end upload. "+DateTime.Now);
         }
     }
 }
